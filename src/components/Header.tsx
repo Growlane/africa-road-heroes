@@ -12,9 +12,9 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/4e73be05-2000-4648-bd1a-83fe04326a71.png" 
+              src="/lovable-uploads/19a2f2d0-b46e-4c73-8327-e0504c5f0ab8.png" 
               alt="Ultimate Trucking Solutions" 
-              className="h-12 w-auto rounded-full hover:scale-110 transition-transform duration-300 animate-pulse hover:animate-none"
+              className="h-12 w-auto hover:scale-110 transition-transform duration-300"
             />
           </div>
 
@@ -36,7 +36,12 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex">
-            <Button variant="cta" size="default" className="font-poppins">
+            <Button 
+              variant="cta" 
+              size="default" 
+              className="font-poppins"
+              onClick={() => window.open('tel:+26771669889')}
+            >
               <Phone className="w-4 h-4" />
               Call Now
             </Button>
@@ -67,7 +72,12 @@ const Header = () => {
               <a href="#contact" className="font-poppins text-foreground hover:text-primary transition-colors">
                 Contact
               </a>
-              <Button variant="cta" size="default" className="font-poppins w-full">
+              <Button 
+                variant="cta" 
+                size="default" 
+                className="font-poppins w-full"
+                onClick={() => window.open('tel:+26771669889')}
+              >
                 <Phone className="w-4 h-4" />
                 Call Now
               </Button>

@@ -61,7 +61,7 @@ const Footer = () => {
                 <Phone className="w-5 h-5 text-secondary" />
                 <div>
                   <p className="font-poppins font-medium">24/7 Emergency Line</p>
-                  <p className="font-open-sans text-white/80">+267 XXX XXX XXX</p>
+                  <p className="font-open-sans text-white/80">+267 7166 9889</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
@@ -77,7 +77,7 @@ const Footer = () => {
 
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
           <p className="font-open-sans text-white/60">
-            © 2024 Ultimate Trucking Solutions. All rights reserved. | Powering Africa's Roads, One Truck at a Time.
+            © 2025 Ultimate Trucking Solutions. All rights reserved. | Powering Africa's Roads, One Truck at a Time.
           </p>
         </div>
       </div>
