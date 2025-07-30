@@ -11,9 +11,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="text-xl font-montserrat font-bold text-primary">
-              Ultimate Trucking Solutions
-            </h1>
+            <img 
+              src="/lovable-uploads/4e73be05-2000-4648-bd1a-83fe04326a71.png" 
+              alt="Ultimate Trucking Solutions" 
+              className="h-12 w-auto rounded-full hover:scale-110 transition-transform duration-300 animate-pulse hover:animate-none"
+            />
           </div>
 
           {/* Desktop Navigation */}
