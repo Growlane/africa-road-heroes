@@ -1,27 +1,42 @@
 import { Card, CardContent } from "@/components/ui/card";
-import mobileUnitImage from "@/assets/mobile-unit-action.jpg";
-import engineRebuildImage from "@/assets/engine-rebuild-before-after.jpg";
-import oilAnalysisImage from "@/assets/oil-analysis-results.jpg";
 
 const Gallery = () => {
   const projects = [
     {
-      title: "Mobile Unit in Action",
-      description: "Our fully equipped mobile units providing roadside assistance across SADC routes",
-      image: mobileUnitImage,
-      category: "Roadside Service"
+      title: "Precision Bearing Repair",
+      description: "Expert mechanical component repairs with precision tools and techniques",
+      image: "/lovable-uploads/524bba7c-ed1e-4f17-ba48-78dab039828a.png",
+      category: "Component Repair"
     },
     {
-      title: "Engine Rebuild Project",
-      description: "Before and after comparison of our precision engine rebuild services",
-      image: engineRebuildImage,
+      title: "Transmission & Differential Work",
+      description: "Professional transmission parts measurement and rebuilding services",
+      image: "/lovable-uploads/829d9807-1875-4c03-b352-32c0d1b8cb94.png",
       category: "Rebuild Services"
     },
     {
-      title: "Oil Analysis Results",
-      description: "Scientific tribology analysis helping prevent breakdowns before they happen",
-      image: oilAnalysisImage,
-      category: "Diagnostics"
+      title: "Fleet Operations",
+      description: "Professional truck and container handling at our facility",
+      image: "/lovable-uploads/18e34cd2-4804-497c-8c5c-2ea8b500151e.png",
+      category: "Fleet Management"
+    },
+    {
+      title: "SADC Transport Operations",
+      description: "Long-haul transport services across SADC region routes",
+      image: "/lovable-uploads/acecb768-cd0c-41ac-a2e8-e7b61443b568.png",
+      category: "Transport Services"
+    },
+    {
+      title: "Roadside Assistance",
+      description: "24/7 mobile repair services wherever you are across Botswana and SADC",
+      image: "/lovable-uploads/2e0b5a1b-f8bc-440d-9b37-b8b39e2b9d2f.png",
+      category: "Roadside Service"
+    },
+    {
+      title: "Complete Engine Rebuild",
+      description: "Fully rebuilt engines ready for installation - like brand new performance",
+      image: "/lovable-uploads/8786edb3-13bb-4304-bf6f-2f366dbaaa11.png",
+      category: "Engine Rebuild"
     }
   ];
 
