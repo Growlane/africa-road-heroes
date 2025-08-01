@@ -86,10 +86,13 @@ const About = () => {
             <div className="w-24 h-1 bg-secondary mx-auto mb-12"></div>
             <div className="text-lg font-open-sans text-foreground/80 leading-relaxed space-y-6">
               <p>
-                Ultimate Trucking Solutions is a proudly Botswana-based company that specializes in truck and plant equipment repairs, fleet rebuilds, roadside assistance, and component diagnostics.
+                Ultimate Trucking Solutions (UTS) is Botswana's premier truck, trailer, and plant equipment service hub, based in Gaborone. We are trusted by regional and local logistics companies for our cutting-edge roadside assistance, mobile mechanics, fleet efficiency solutions, and commitment to safer transport operations.
               </p>
               <p>
-                We've been serving logistics companies, truck owners, and fleet managers across Botswana and the SADC region with one goal in mind: to keep Africa moving.
+                Our mission is to empower transport operators with the tools, services, and technologies needed to reduce cost per kilometer, improve vehicle safety, and eliminate downtime.
+              </p>
+              <p>
+                Whether your fleet moves within Botswana or across the SADC region, UTS is your partner in delivering smart, efficient, and safe fleet operations 24/7/365.
               </p>
             </div>
           </div>
@@ -192,7 +195,7 @@ const About = () => {
                     <div>
                       <h3 className="font-poppins font-semibold text-primary mb-2">Service Coverage</h3>
                       <p className="font-open-sans text-foreground/80">
-                        All of Botswana + major SADC transit routes (South Africa, Zimbabwe, Zambia, Namibia, etc.)
+                        We service Gaborone, Francistown, Lobatse, Palapye, Selebi Phikwe, Charles Hill, Ghanzi, Maun, Mahalapye, Martins Drift Border, Ramokgwebana Border, Kazungula Border and cross-border routes into South Africa, Namibia, Zambia, and Zimbabwe.
                       </p>
                     </div>
                   </div>

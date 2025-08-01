@@ -11,21 +11,21 @@ const Hero = () => {
   const slides = [
     {
       image: heroImage,
-      title: 'Powering Africa\'s Roads',
-      subtitle: 'One Truck at a Time!',
-      description: 'From Botswana to the SADC region, we keep your trucks running with expert repairs, 24/7 roadside support, and precision rebuilds.'
+      title: '24/7 Truck, Trailer & Plant Equipment Services',
+      subtitle: 'in Botswana & the SADC Region',
+      description: 'Maximize Fleet Uptime | Reduce Operating Costs | Ensure Safe & Efficient Logistics with expert repairs, roadside assistance, and precision rebuilds.'
     },
     {
       image: mobileUnitImage,
-      title: '24/7 Emergency Response',
-      subtitle: 'We\'re Always Ready!',
-      description: 'Mobile roadside assistance across Botswana and SADC transit routes. When you break down, we get to you fast.'
+      title: 'Emergency Roadside Assistance',
+      subtitle: '< 2 Hours Dispatch Time',
+      description: 'Mobile mechanics on standby 24/7/365 across Gaborone and key transport corridors in Botswana, South Africa, Namibia, and Zambia.'
     },
     {
       image: engineRebuildImage,
-      title: 'Expert Engine Rebuilds',
-      subtitle: 'Performance Like Brand New!',
-      description: 'Complete engine, transmission, and differential rebuilds with precision engineering and quality guarantees.'
+      title: 'Fleet Efficiency Optimization',
+      subtitle: 'Cut Operating Costs Today',
+      description: 'Preventive maintenance schedules, digital diagnostics, and cost-per-kilometer analysis to extend vehicle lifespan and improve fuel economy.'
     }
   ];
 

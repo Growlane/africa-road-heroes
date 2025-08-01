@@ -19,69 +19,69 @@ import {
 const Services = () => {
   const services = [
     {
-      icon: <Wrench className="w-8 h-8" />,
-      title: "Truck & Plant Equipment Repairs",
-      description: "We specialize in expert repairs for commercial trucks, trailers, and heavy plant equipment. Our certified technicians deliver fast and efficient service to reduce downtime.",
-      color: "text-primary"
-    },
-    {
       icon: <Phone className="w-8 h-8" />,
-      title: "Roadside Assistance (Botswana & SADC)",
-      description: "Breakdowns can happen anytime. Our 24/7 in-transit support covers major SADC routes. We dispatch mobile mechanics fast anywhere, anytime.",
+      title: "24/7 Roadside Assistance & Mobile Mechanics",
+      description: "Breakdowns don't follow business hours. Our expert mobile mechanics are on standby 24/7/365, ready to dispatch across Gaborone and key transport corridors in Botswana, South Africa, Namibia, and Zambia. Engine diagnostics, trailer repairs, hydraulic servicing, and emergency towing coordination.",
       color: "text-secondary"
     },
     {
+      icon: <Gauge className="w-8 h-8" />,
+      title: "Fleet Efficiency Optimization",
+      description: "Our fleet solutions are designed to cut operating costs, improve fuel economy, and extend truck lifespan. Preventive maintenance schedules, digital vehicle diagnostics, onboard telematics integration, and cost-per-kilometer (CPK) analysis.",
+      color: "text-primary"
+    },
+    {
       icon: <Truck className="w-8 h-8" />,
-      title: "Mobile Truck Mechanics (Botswana Only)",
-      description: "Our mobile teams come fully equipped to handle most repairs onsite. Save towing fees and time with our reliable mobile solutions.",
+      title: "Trailer & Plant Equipment Repairs",
+      description: "We handle side tippers, sloppers, flatbeds, and construction plant equipment. Whether in your yard or on the road — we come to you. Axle alignment, welding, hydraulic systems, tire & brake replacements, and on-site service for plant hire firms.",
       color: "text-accent"
     },
     {
-      icon: <RefreshCw className="w-8 h-8" />,
-      title: "Truck Rebuilds",
-      description: "We bring damaged, worn-out trucks back to life. From the chassis to the cabin, we rebuild everything to manufacturer standards.",
+      icon: <Wrench className="w-8 h-8" />,
+      title: "Workshop Services in Gaborone",
+      description: "Visit our fully equipped service center in Gaborone for complete diagnostics, mechanical and electrical repairs. Heavy-duty diagnostics (Volvo, Scania, MAN), parts replacement, brake testing, emission controls, and compliance documentation.",
       color: "text-primary"
+    },
+    {
+      icon: <RefreshCw className="w-8 h-8" />,
+      title: "Truck Rebuilds & Asset Audits",
+      description: "Complete truck rebuilds from chassis to cabin, rebuilt to manufacturer standards. We also provide comprehensive asset audits and fleet inspections to assess vehicle condition and recommend maintenance strategies.",
+      color: "text-secondary"
     },
     {
       icon: <Cog className="w-8 h-8" />,
       title: "Engine, Transmission & Differential Rebuilds",
-      description: "Complete internal system overhauls done by skilled technicians. We use genuine or OEM-spec parts to ensure long life and performance.",
-      color: "text-secondary"
+      description: "Complete internal system overhauls by skilled technicians using genuine or OEM-spec parts. We ensure long life, peak performance, and warranty coverage for all rebuilt components.",
+      color: "text-accent"
     },
     {
       icon: <FlaskConical className="w-8 h-8" />,
-      title: "Tribology / Oil Analysis",
-      description: "Scientific fluid testing helps detect wear, contamination, or poor lubrication. Avoid unexpected failures by knowing your truck's health in advance.",
-      color: "text-accent"
-    },
-    {
-      icon: <ShieldCheck className="w-8 h-8" />,
-      title: "Certified Trucks, Trailers & Equipment",
-      description: "We offer high-quality, tested trucks and plant equipment. Every unit is inspected and certified by our technical team before sale or lease.",
+      title: "Oil/Fuel Analysis & Engine Health Management",
+      description: "Scientific fluid testing detects wear, contamination, and poor lubrication. Our engine health management systems track performance, temperature, vibration, and oil quality to prevent unexpected failures.",
       color: "text-primary"
-    },
-    {
-      icon: <Gauge className="w-8 h-8" />,
-      title: "Pneumatic & Hydraulic System Repairs",
-      description: "Air or fluid power systems acting up? We fix brakes, lifts, and compressors with precision tools and experience.",
-      color: "text-secondary"
     },
     {
       icon: <Zap className="w-8 h-8" />,
-      title: "Auto Electrical Repairs",
-      description: "Modern trucks need smart diagnostics. We handle alternators, wiring, sensors, lights, and complex electronic systems.",
-      color: "text-accent"
+      title: "Auto Electrical & Hydraulic Repairs",
+      description: "Modern trucks require smart diagnostics. We handle alternators, wiring, sensors, lighting, hydraulic systems, pneumatic repairs, brake systems, and complex electronic control modules.",
+      color: "text-secondary"
     },
     {
       icon: <Fuel className="w-8 h-8" />,
-      title: "Fuel Savers",
-      description: "We install and tune advanced fuel-saving systems to help you reduce operational costs and environmental impact.",
-      color: "text-primary"
+      title: "Fuel Savers & Truck Retrofits",
+      description: "We install and tune advanced fuel-saving systems and retrofit trucks with modern technology to reduce operational costs, improve efficiency, and minimize environmental impact.",
+      color: "text-accent"
     },
     {
       icon: <Activity className="w-8 h-8" />,
-      title: "Engine & Component Health Management",
-      description: "Track the performance, temperature, vibration, and oil quality of every component. We help you plan maintenance before breakdowns happen.",
+      title: "Fleet Telemetry & Contract Mechanics",
+      description: "Asset & fleet telemetry solutions for real-time monitoring. We also provide contract mechanics for long-term fleet partnerships and driver training programs to ensure safer operations.",
+      color: "text-primary"
+    },
+    {
+      icon: <ShieldCheck className="w-8 h-8" />,
+      title: "Fleet Advisory & Driver Training",
+      description: "Comprehensive fleet advisory services including maintenance planning, cost optimization strategies, and professional driver training programs to ensure safe and efficient fleet operations.",
       color: "text-secondary"
     }
   ];
