@@ -7,9 +7,9 @@ const ServicesPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      {/* Hero Section with Shaded Image */}
+      {/* Hero Section with Truck Service Images and Blue Shade */}
       <section className="relative h-96 bg-cover bg-center bg-no-repeat" style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?w=1200&h=600&fit=crop')`
+        backgroundImage: `linear-gradient(rgba(59, 130, 246, 0.4), rgba(37, 99, 235, 0.6)), url('/lovable-uploads/53b70c25-0495-4ac5-b6ee-da82a07f3f54.png')`
       }}>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white max-w-4xl px-4">
