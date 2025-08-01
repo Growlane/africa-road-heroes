@@ -52,9 +52,14 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-poppins font-semibold text-primary mb-2">Phone</h3>
-                    <p className="font-open-sans text-foreground/80">
-                      +267 7166 9889
-                    </p>
+                    <div className="space-y-1">
+                      <p className="font-open-sans text-foreground/80">
+                        Primary: +0026771669889
+                      </p>
+                      <p className="font-open-sans text-foreground/80">
+                        Secondary: +0026776550659
+                      </p>
+                    </div>
                   </div>
                 </div>
               </CardContent>
@@ -68,9 +73,20 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-poppins font-semibold text-primary mb-2">Email</h3>
-                    <p className="font-open-sans text-foreground/80">
-                      info@ultimatetruckingsolutions.com
-                    </p>
+                    <div className="space-y-1">
+                      <p className="font-open-sans text-foreground/80">
+                        General: enquiries@uts.co.bw
+                      </p>
+                      <p className="font-open-sans text-foreground/80">
+                        Sales: sales@uts.co.bw
+                      </p>
+                      <p className="font-open-sans text-foreground/80">
+                        Operations: modmuzambi@uts.co.bw
+                      </p>
+                      <p className="font-open-sans text-foreground/80">
+                        Director: director@uts.co.bw
+                      </p>
+                    </div>
                   </div>
                 </div>
               </CardContent>

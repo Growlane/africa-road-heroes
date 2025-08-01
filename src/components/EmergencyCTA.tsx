@@ -20,17 +20,17 @@ const EmergencyCTA = () => {
               variant="outline" 
               size="default" 
               className="bg-white text-secondary border-white hover:bg-white/90 font-poppins font-semibold"
-              onClick={() => window.open('tel:+26771669889')}
+              onClick={() => window.open('tel:+0026771669889')}
             >
               <Phone className="w-4 h-4" />
-              Call Now: +267 7166 9889
+              Call Now: +0026771669889
             </Button>
             
             <Button 
               variant="outline" 
               size="default" 
               className="bg-white/10 text-white border-white/30 hover:bg-white/20 font-poppins"
-              onClick={() => window.open('https://wa.me/26771669889?text=Hello%2C%20I%20need%20roadside%20assistance')}
+              onClick={() => window.open('https://wa.me/0026771669889?text=Hello%2C%20I%20need%20roadside%20assistance')}
             >
               <MessageCircle className="w-4 h-4" />
               WhatsApp

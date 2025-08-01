@@ -55,21 +55,29 @@ const Gallery = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <Card key={index} className="group overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+            <Card 
+              key={index} 
+              className="group overflow-hidden hover:shadow-xl transition-all duration-700 hover:-translate-y-2 animate-fade-in"
+              style={{ 
+                animationDelay: `${index * 200}ms`,
+                animationFillMode: 'both'
+              }}
+            >
               <div className="relative overflow-hidden">
                 <img 
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-1000"
                 />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-secondary text-white px-3 py-1 rounded-full text-sm font-poppins font-medium">
+                  <span className="bg-secondary text-white px-3 py-1 rounded-full text-sm font-poppins font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     {project.category}
                   </span>
                 </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
               </div>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-poppins font-semibold text-primary mb-3">
+              <CardContent className="p-6 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
+                <h3 className="text-xl font-poppins font-semibold text-primary mb-3 group-hover:text-secondary transition-colors duration-300">
                   {project.title}
                 </h3>
                 <p className="font-open-sans text-foreground/80 leading-relaxed">

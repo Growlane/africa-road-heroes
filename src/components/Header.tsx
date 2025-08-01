@@ -10,12 +10,11 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
-            <span className="font-montserrat font-bold text-xl text-foreground">Ultimate Trucking Solutions</span>
+          <div className="flex items-center">
             <img 
               src="/lovable-uploads/19a2f2d0-b46e-4c73-8327-e0504c5f0ab8.png" 
               alt="Ultimate Trucking Solutions" 
-              className="h-10 w-auto hover:scale-110 transition-transform duration-300"
+              className="h-16 w-16 rounded-full object-cover hover:scale-110 transition-transform duration-300 shadow-lg border-2 border-primary/20"
             />
           </div>
 
@@ -41,7 +40,7 @@ const Header = () => {
               variant="cta" 
               size="default" 
               className="font-poppins"
-              onClick={() => window.open('tel:+26771669889')}
+              onClick={() => window.open('tel:+0026771669889')}
             >
               <Phone className="w-4 h-4" />
               Call Now
@@ -77,7 +76,7 @@ const Header = () => {
                 variant="cta" 
                 size="default" 
                 className="font-poppins w-full"
-                onClick={() => window.open('tel:+26771669889')}
+                onClick={() => window.open('tel:+0026771669889')}
               >
                 <Phone className="w-4 h-4" />
                 Call Now
