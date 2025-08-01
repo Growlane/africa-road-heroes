@@ -68,7 +68,7 @@ const About = () => {
               <Button variant="cta" size="lg" className="font-poppins text-lg">
                 Meet Our Team
               </Button>
-              <Button variant="outline" size="lg" className="font-poppins text-lg border-white text-white hover:bg-white hover:text-primary">
+              <Button variant="outline" size="lg" className="font-poppins text-lg border-white text-blue-500 hover:bg-blue-500 hover:text-white">
                 Explore Our Services
               </Button>
             </div>
