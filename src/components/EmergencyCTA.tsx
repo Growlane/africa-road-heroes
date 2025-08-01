@@ -11,7 +11,7 @@ const EmergencyCTA = () => {
               🛠️ Need Roadside Help or Emergency Repairs?
             </h3>
             <p className="font-open-sans text-white/90 text-sm">
-              24/7 support across Botswana & SADC routes
+              Primary: +267 7166 9889 | Secondary: +267 7655 0659
             </p>
           </div>
           
@@ -23,14 +23,14 @@ const EmergencyCTA = () => {
               onClick={() => window.open('tel:+0026771669889')}
             >
               <Phone className="w-4 h-4" />
-              Call Now: +0026771669889
+              Call: +267 7166 9889
             </Button>
             
             <Button 
               variant="outline" 
               size="default" 
               className="bg-white/10 text-white border-white/30 hover:bg-white/20 font-poppins"
-              onClick={() => window.open('https://wa.me/0026771669889?text=Hello%2C%20I%20need%20roadside%20assistance')}
+              onClick={() => window.open('https://wa.me/0026771669889?text=Hello%2C%20I%20need%20roadside%20assistance%20%28Primary%29%20or%20+0026776550659%20%28Secondary%29')}
             >
               <MessageCircle className="w-4 h-4" />
               WhatsApp

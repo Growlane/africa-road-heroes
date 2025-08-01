@@ -31,22 +31,22 @@ const Footer = () => {
             <h4 className="text-lg font-poppins font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#home" className="font-open-sans text-white/80 hover:text-secondary transition-colors">
+                <a href="/" className="font-open-sans text-white/80 hover:text-secondary transition-colors">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#services" className="font-open-sans text-white/80 hover:text-secondary transition-colors">
+                <a href="/services" className="font-open-sans text-white/80 hover:text-secondary transition-colors">
                   Services
                 </a>
               </li>
               <li>
-                <a href="#about" className="font-open-sans text-white/80 hover:text-secondary transition-colors">
+                <a href="/about" className="font-open-sans text-white/80 hover:text-secondary transition-colors">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#contact" className="font-open-sans text-white/80 hover:text-secondary transition-colors">
+                <a href="/contact" className="font-open-sans text-white/80 hover:text-secondary transition-colors">
                   Contact
                 </a>
               </li>
@@ -61,7 +61,7 @@ const Footer = () => {
                 <Phone className="w-5 h-5 text-secondary" />
                 <div>
                   <p className="font-poppins font-medium">24/7 Emergency Line</p>
-                  <p className="font-open-sans text-white/80">+267 7166 9889</p>
+                  <p className="font-open-sans text-white/80">+267 7166 9889 (Primary) | +267 7655 0659 (Secondary)</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">

@@ -89,28 +89,28 @@ const Services = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Banner Section */}
-      <section className="relative min-h-[60vh] flex items-center justify-center bg-gradient-to-br from-primary/90 to-secondary/90 text-white">
+      <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: `url('/lovable-uploads/mobile-unit-action.jpg')`,
           }}
         />
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/70 via-primary/60 to-secondary/70" />
         
-        <div className="relative z-10 container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-montserrat font-bold mb-6">
-            Trusted Fleet Repair Experts Across Botswana & SADC
+        <div className="relative z-10 container mx-auto px-4 text-center text-white">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-montserrat font-bold mb-6 animate-fade-in">
+            Expert Fleet Solutions
           </h1>
-          <p className="text-xl md:text-2xl font-open-sans mb-8 max-w-4xl mx-auto">
-            24/7 Roadside Support, Rebuilds, Diagnostics & More. Delivered by Certified Technicians.
+          <p className="text-xl md:text-2xl font-open-sans mb-8 max-w-4xl mx-auto leading-relaxed">
+            24/7 Roadside Support, Rebuilds, Diagnostics & More. Delivered by Certified Technicians Across Botswana & SADC.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               variant="cta" 
               size="lg" 
-              className="font-poppins text-lg px-8 py-4"
+              className="font-poppins text-lg px-8 py-4 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
               onClick={() => window.location.href = '/contact'}
             >
               <Calendar className="w-5 h-5" />
@@ -119,8 +119,8 @@ const Services = () => {
             <Button 
               variant="outline" 
               size="lg" 
-              className="font-poppins text-lg px-8 py-4 bg-white/10 text-white border-white/30 hover:bg-white/20"
-              onClick={() => window.open('tel:+26771669889')}
+              className="font-poppins text-lg px-8 py-4 bg-white/10 text-white border-white/30 hover:bg-white/20 backdrop-blur-sm"
+              onClick={() => window.open('tel:+0026771669889')}
             >
               <Phone className="w-5 h-5" />
               Talk to a Technician
@@ -203,16 +203,16 @@ const Services = () => {
               variant="cta" 
               size="lg" 
               className="font-poppins text-lg px-8 py-4"
-              onClick={() => window.open('tel:+26771669889')}
+              onClick={() => window.open('tel:+0026771669889')}
             >
               <Phone className="w-5 h-5" />
-              Call Now
+              Call Primary: +267 7166 9889
             </Button>
             <Button 
               variant="outline" 
               size="lg" 
               className="font-poppins text-lg px-8 py-4 bg-white/10 text-white border-white/30 hover:bg-white/20"
-              onClick={() => window.open('https://wa.me/26771669889?text=Hello%2C%20I%20need%20roadside%20assistance')}
+              onClick={() => window.open('https://wa.me/0026771669889?text=Hello%2C%20I%20need%20roadside%20assistance%20%28Primary%29%20or%20+0026776550659%20%28Secondary%29')}
             >
               <MessageCircle className="w-5 h-5" />
               WhatsApp Us
