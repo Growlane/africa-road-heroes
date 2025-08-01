@@ -27,7 +27,7 @@ const Services = () => {
     {
       icon: <Phone className="w-8 h-8" />,
       title: "Roadside Assistance (Botswana & SADC)",
-      description: "Breakdowns can happen anytime. Our 24/7 in-transit support covers major SADC routes. We dispatch mobile mechanics fast — anywhere, anytime.",
+      description: "Breakdowns can happen anytime. Our 24/7 in-transit support covers major SADC routes. We dispatch mobile mechanics fast anywhere, anytime.",
       color: "text-secondary"
     },
     {
@@ -103,7 +103,7 @@ const Services = () => {
             Trusted Fleet Repair Experts Across Botswana & SADC
           </h1>
           <p className="text-xl md:text-2xl font-open-sans mb-8 max-w-4xl mx-auto">
-            24/7 Roadside Support, Rebuilds, Diagnostics & More — Delivered by Certified Technicians.
+            24/7 Roadside Support, Rebuilds, Diagnostics & More. Delivered by Certified Technicians.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -175,7 +175,7 @@ const Services = () => {
         
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-5xl font-montserrat font-bold mb-4">
-            "We don't just repair trucks — we keep Africa moving."
+            "We don't just repair trucks, we keep Africa moving."
           </h2>
         </div>
       </section>
@@ -195,7 +195,7 @@ const Services = () => {
             Need Emergency Roadside Help?
           </h2>
           <p className="text-xl md:text-2xl font-open-sans mb-8 max-w-4xl mx-auto">
-            We're just one call away — anywhere in Botswana or the SADC region.
+            We're just one call away anywhere in Botswana or the SADC region.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -22,7 +22,7 @@ const ServicesPreview = () => {
     {
       icon: <Phone className="w-8 h-8" />,
       title: "24/7 Roadside Assistance",
-      description: "Emergency support across Botswana & SADC routes. We dispatch mobile mechanics fast — anywhere, anytime.",
+      description: "Emergency support across Botswana & SADC routes. We dispatch mobile mechanics fast anywhere, anytime.",
       color: "text-secondary"
     },
     {

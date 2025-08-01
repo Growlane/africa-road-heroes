@@ -39,7 +39,7 @@ const Testimonials = () => {
           </h2>
           <div className="w-24 h-1 bg-secondary mx-auto mb-6"></div>
           <p className="text-xl font-open-sans text-foreground/80 max-w-3xl mx-auto">
-            Don't just take our word for it — hear from our satisfied clients across the SADC region
+            Don't just take our word for it, hear from our satisfied clients across the SADC region
           </p>
         </div>
 

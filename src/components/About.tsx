@@ -89,7 +89,7 @@ const About = () => {
                 Ultimate Trucking Solutions is a proudly Botswana-based company that specializes in truck and plant equipment repairs, fleet rebuilds, roadside assistance, and component diagnostics.
               </p>
               <p>
-                We've been serving logistics companies, truck owners, and fleet managers across Botswana and the SADC region with one goal in mind — to keep Africa moving.
+                We've been serving logistics companies, truck owners, and fleet managers across Botswana and the SADC region with one goal in mind: to keep Africa moving.
               </p>
             </div>
           </div>
@@ -234,10 +234,10 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center text-white">
             <blockquote className="text-2xl md:text-3xl font-poppins italic leading-relaxed mb-8">
-              "Ultimate Trucking Solutions has kept our fleet running smoothly for over 3 years. They are more than a repair service — they are partners."
+              "Ultimate Trucking Solutions has kept our fleet running smoothly for over 3 years. They are more than a repair service, they are partners."
             </blockquote>
             <cite className="text-lg font-open-sans text-white/90">
-              — Tebogo M., Fleet Supervisor, Francistown
+              - Tebogo M., Fleet Supervisor, Francistown
             </cite>
           </div>
         </div>
