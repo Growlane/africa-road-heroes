@@ -18,7 +18,7 @@ const Hero = () => {
     {
       image: mobileUnitImage,
       title: 'Emergency Roadside Assistance',
-      subtitle: '< 2 Hours Dispatch Time',
+      subtitle: '2 Hours Dispatch Time',
       description: 'Mobile mechanics on standby 24/7/365 across Gaborone and key transport corridors in Botswana, South Africa, Namibia, and Zambia.'
     },
     {
@@ -68,9 +68,9 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-montserrat font-bold mb-6 leading-tight animate-fade-in">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-montserrat font-bold mb-6 leading-tight animate-fade-in">
             {slides[currentSlide].title}
-            <span className="block text-secondary">{slides[currentSlide].subtitle}</span>
+            <span className="block text-secondary text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">{slides[currentSlide].subtitle}</span>
           </h1>
           
           <p className="text-xl md:text-2xl font-open-sans mb-8 text-white/90 animate-fade-in" style={{ animationDelay: '0.2s' }}>
