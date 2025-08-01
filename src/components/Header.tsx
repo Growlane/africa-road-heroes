@@ -10,7 +10,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20 relative">
           {/* Desktop Navigation - Left Side */}
-          <nav className="hidden md:flex items-center space-x-6 mr-8">
+          <nav className="hidden md:flex items-center space-x-4 mr-4">
             <a href="/" className="font-poppins font-bold text-foreground hover:text-primary transition-colors">
               Home
             </a>
@@ -29,7 +29,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation - Right Side */}
-          <nav className="hidden md:flex items-center space-x-6 ml-8">
+          <nav className="hidden md:flex items-center space-x-4 ml-4">
             <a href="/about" className="font-poppins font-bold text-foreground hover:text-primary transition-colors">
               About
             </a>
