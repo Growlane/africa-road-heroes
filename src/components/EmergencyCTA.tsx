@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Phone, MessageCircle } from "lucide-react";
+import { Phone } from "lucide-react";
+import whatsappIcon from "@/assets/whatsapp-icon.png";
 
 const EmergencyCTA = () => {
   return (
@@ -32,7 +33,7 @@ const EmergencyCTA = () => {
               className="bg-white/10 text-white border-white/30 hover:bg-white/20 font-poppins"
               onClick={() => window.open('https://wa.me/0026771669889?text=Hello%2C%20I%20need%20roadside%20assistance%20%28Primary%29%20or%20+0026776550659%20%28Secondary%29')}
             >
-              <MessageCircle className="w-4 h-4" />
+              <img src={whatsappIcon} alt="WhatsApp" className="w-4 h-4" />
               WhatsApp
             </Button>
           </div>

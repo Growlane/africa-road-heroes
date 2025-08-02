@@ -12,9 +12,9 @@ import {
   Gauge,
   Fuel,
   Activity,
-  MessageCircle,
   Calendar
 } from "lucide-react";
+import whatsappIcon from "@/assets/whatsapp-icon.png";
 
 const Services = () => {
   const services = [
@@ -214,7 +214,7 @@ const Services = () => {
               className="font-poppins text-lg px-8 py-4 bg-white/10 text-white border-white/30 hover:bg-white/20"
               onClick={() => window.open('https://wa.me/0026771669889?text=Hello%2C%20I%20need%20roadside%20assistance%20%28Primary%29%20or%20+0026776550659%20%28Secondary%29')}
             >
-              <MessageCircle className="w-5 h-5" />
+              <img src={whatsappIcon} alt="WhatsApp" className="w-5 h-5" />
               WhatsApp Us
             </Button>
             <Button 
