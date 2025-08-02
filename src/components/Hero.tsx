@@ -7,6 +7,7 @@ import engineRebuildImage from "@/assets/engine-rebuild-before-after.jpg";
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isTransitioning, setIsTransitioning] = useState(false);
   
   const slides = [
     {
@@ -31,19 +32,36 @@ const Hero = () => {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 5000);
+      setIsTransitioning(true);
+      setTimeout(() => {
+        setCurrentSlide((prev) => (prev + 1) % slides.length);
+        setIsTransitioning(false);
+      }, 200);
+    }, 6000);
     return () => clearInterval(timer);
   }, []);
 
-  const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % slides.length);
-  const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  const nextSlide = () => {
+    setIsTransitioning(true);
+    setTimeout(() => {
+      setCurrentSlide((prev) => (prev + 1) % slides.length);
+      setIsTransitioning(false);
+    }, 200);
+  };
+  
+  const prevSlide = () => {
+    setIsTransitioning(true);
+    setTimeout(() => {
+      setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+      setIsTransitioning(false);
+    }, 200);
+  };
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with Transition */}
+      {/* Background Image with Smooth Transition */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-1000 ease-in-out"
+        className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-700 ease-in-out ${isTransitioning ? 'opacity-90 scale-105' : 'opacity-100 scale-100'}`}
         style={{ backgroundImage: `url(${slides[currentSlide].image})` }}
       >
         {/* Dark overlay for text readability */}
@@ -66,18 +84,18 @@ const Hero = () => {
       </button>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center text-white">
+      <div className={`relative z-10 container mx-auto px-4 text-center text-white transition-all duration-500 ${isTransitioning ? 'opacity-80 translate-y-2' : 'opacity-100 translate-y-0'}`}>
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-montserrat font-bold mb-6 leading-[1.1] tracking-tight animate-fade-in">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-montserrat font-bold mb-6 leading-[1.1] tracking-tight">
             {slides[currentSlide].title}
             <span className="block text-secondary text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-medium mt-3 tracking-wide">{slides[currentSlide].subtitle}</span>
           </h1>
           
-          <p className="text-base sm:text-lg md:text-xl lg:text-xl font-open-sans mb-8 text-white/95 animate-fade-in max-w-3xl mx-auto leading-relaxed font-light" style={{ animationDelay: '0.2s' }}>
+          <p className="text-base sm:text-lg md:text-xl lg:text-xl font-open-sans mb-8 text-white/95 max-w-3xl mx-auto leading-relaxed font-light">
             {slides[currentSlide].description}
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               variant="emergency" 
               size="xl" 
