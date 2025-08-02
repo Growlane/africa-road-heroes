@@ -68,7 +68,7 @@ const Footer = () => {
                 <Mail className="w-5 h-5 text-secondary" />
                 <div>
                   <p className="font-poppins font-medium">Email Support</p>
-                  <p className="font-open-sans text-white/80">info@ultimatetruckingsolutions.com</p>
+                  <p className="font-open-sans text-white/80">service@uts.co.bw</p>
                 </div>
               </div>
             </div>

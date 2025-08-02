@@ -36,8 +36,8 @@ const Hero = () => {
       setTimeout(() => {
         setCurrentSlide((prev) => (prev + 1) % slides.length);
         setIsTransitioning(false);
-      }, 200);
-    }, 6000);
+      }, 300);
+    }, 7000);
     return () => clearInterval(timer);
   }, []);
 
@@ -46,7 +46,7 @@ const Hero = () => {
     setTimeout(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
       setIsTransitioning(false);
-    }, 200);
+    }, 300);
   };
   
   const prevSlide = () => {
@@ -54,14 +54,14 @@ const Hero = () => {
     setTimeout(() => {
       setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
       setIsTransitioning(false);
-    }, 200);
+    }, 300);
   };
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Smooth Transition */}
       <div 
-        className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-700 ease-in-out ${isTransitioning ? 'opacity-90 scale-105' : 'opacity-100 scale-100'}`}
+        className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-1000 ease-in-out ${isTransitioning ? 'opacity-0' : 'opacity-100'}`}
         style={{ backgroundImage: `url(${slides[currentSlide].image})` }}
       >
         {/* Dark overlay for text readability */}
@@ -84,7 +84,7 @@ const Hero = () => {
       </button>
 
       {/* Content */}
-      <div className={`relative z-10 container mx-auto px-4 text-center text-white transition-all duration-500 ${isTransitioning ? 'opacity-80 translate-y-2' : 'opacity-100 translate-y-0'}`}>
+      <div className={`relative z-10 container mx-auto px-4 text-center text-white transition-all duration-1000 ease-in-out ${isTransitioning ? 'opacity-0' : 'opacity-100'}`}>
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-montserrat font-bold mb-6 leading-[1.1] tracking-tight">
             {slides[currentSlide].title}
