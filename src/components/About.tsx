@@ -79,21 +79,44 @@ const About = () => {
       {/* Who We Are */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-primary mb-8 text-center">
               Who We Are
             </h2>
             <div className="w-24 h-1 bg-secondary mx-auto mb-12"></div>
-            <div className="text-lg font-open-sans text-foreground/80 leading-relaxed space-y-6">
-              <p>
-                Ultimate Trucking Solutions (UTS) is Botswana's premier truck, trailer, and plant equipment service hub, based in Gaborone. We are trusted by regional and local logistics companies for our cutting-edge roadside assistance, mobile mechanics, fleet efficiency solutions, and commitment to safer transport operations.
-              </p>
-              <p>
-                Our mission is to empower transport operators with the tools, services, and technologies needed to reduce cost per kilometer, improve vehicle safety, and eliminate downtime.
-              </p>
-              <p>
-                Whether your fleet moves within Botswana or across the SADC region, UTS is your partner in delivering smart, efficient, and safe fleet operations 24/7/365.
-              </p>
+            
+            <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+              <div className="text-lg font-open-sans text-foreground/80 leading-relaxed space-y-6">
+                <p>
+                  Business Crew Group Pty. Ltd is an innovative entrepreneurial venture. Our mission is to ensure that you do more at sustainable operating costs, which is only possible because of our innovative team which is led by the founder and CEO.
+                </p>
+                <p>
+                  We are Botswana's premier truck, trailer, and plant equipment service hub, based in Gaborone. We are trusted by regional and local logistics companies for our cutting-edge roadside assistance, mobile mechanics, fleet efficiency solutions, and commitment to safer transport operations.
+                </p>
+                <p>
+                  Whether your fleet moves within Botswana or across the SADC region, we are your partner in delivering smart, efficient, and safe fleet operations 24/7/365.
+                </p>
+              </div>
+              
+              <div className="text-center">
+                <div className="relative inline-block">
+                  <img 
+                    src="/lovable-uploads/d97fceb3-c0a4-4838-ab02-bc92e0734eb1.png" 
+                    alt="Mod Muzambi - Founder & CEO" 
+                    className="w-80 h-96 object-cover rounded-lg shadow-lg mx-auto"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-lg"></div>
+                </div>
+                <div className="mt-6">
+                  <h3 className="text-2xl font-montserrat font-bold text-primary mb-2">Mod Muzambi</h3>
+                  <p className="text-lg font-poppins text-secondary font-semibold mb-4">Founder & CEO</p>
+                  <div className="text-sm font-open-sans text-foreground/80 space-y-2 max-w-md mx-auto">
+                    <p>MSc in Entrepreneurship Management & Innovation</p>
+                    <p>Diploma in Logistics & Transport</p>
+                    <p>34+ Years Heavy Plant & Truck Mechanic</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -148,12 +171,26 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-primary mb-8 text-center">
-              Meet the Team
+              The Team
             </h2>
             <div className="w-24 h-1 bg-secondary mx-auto mb-12"></div>
-            <p className="text-lg font-open-sans text-foreground/80 text-center mb-16 max-w-3xl mx-auto">
-              Our team is made up of certified professionals with decades of combined experience in truck repair, engine diagnostics, and field support.
-            </p>
+            
+            <div className="mb-16">
+              <h3 className="text-2xl font-montserrat font-bold text-primary mb-6 text-center">Our Founder</h3>
+              <div className="max-w-4xl mx-auto text-lg font-open-sans text-foreground/80 leading-relaxed">
+                <p className="mb-6">
+                  Our founder is a qualified and experienced heavy plant equipment and truck mechanic with way over 34 years in the automotive industry serving mines, construction, logistics etc. Mod Muzambi also holds a MSc in Entrepreneurship Management & Innovation, Diploma in Logistics & Transport as well.
+                </p>
+              </div>
+            </div>
+
+            <div className="mb-16">
+              <h3 className="text-2xl font-montserrat font-bold text-primary mb-6 text-center">Our Expert Team</h3>
+              <p className="text-lg font-open-sans text-foreground/80 text-center mb-12 max-w-4xl mx-auto">
+                We also have a team of technicians well qualified in heavy plant, trucks, trailers mechanics in addition to auto electricians, boilermaker and hydraulics and pneumatic technicians. We are well represented at each major centre in Botswana so as to reduce response time as well as call out costs.
+              </p>
+            </div>
+
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
               {teamMembers.map((member, index) => (
                 <div key={index} className="text-center group">
