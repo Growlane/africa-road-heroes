@@ -139,7 +139,7 @@ const Gallery = () => {
                 <img 
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-1000"
+                  className="w-full h-64 object-contain bg-muted/30 group-hover:scale-105 transition-transform duration-1000"
                 />
                 <div className="absolute top-4 left-4">
                   <span className="bg-secondary text-white px-3 py-1 rounded-full text-sm font-poppins font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-500">
