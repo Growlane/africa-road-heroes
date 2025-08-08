@@ -5,7 +5,7 @@ const Gallery = () => {
     {
       title: "Precision Bearing Assembly",
       description: "Advanced bearing assembly and precision measurement with professional tools",
-      image: "/lovable-uploads/23053d9f-3f7c-4dbe-be18-b09a8e477c40.png",
+      image: "/lovable-uploads/a0f0360a-3c07-4450-8bb2-8bdb12301073.png",
       category: "Component Repair"
     },
     {
