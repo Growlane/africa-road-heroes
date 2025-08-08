@@ -82,6 +82,72 @@ const Services = () => {
       title: "Fleet Advisory & Driver Training",
       description: "Comprehensive fleet advisory services including maintenance planning, cost optimization strategies, and professional driver training programs to ensure safe and efficient fleet operations.",
       color: "text-secondary"
+    },
+    {
+      icon: <Truck className="w-8 h-8" />,
+      title: "Parts Deliveries to Emergency Site",
+      description: "Rapid parts delivery to emergency locations across Botswana and SADC regions to minimize downtime and get your fleet back on the road quickly.",
+      color: "text-accent"
+    },
+    {
+      icon: <Fuel className="w-8 h-8" />,
+      title: "Fuel & Lubricants Deliveries",
+      description: "On-site fuel and lubricants delivery services to keep your operations running smoothly without costly detours or delays.",
+      color: "text-primary"
+    },
+    {
+      icon: <Wrench className="w-8 h-8" />,
+      title: "Tyre Changes & Roadside Service",
+      description: "Professional tire changing services at your location, ensuring safe and efficient tire replacement for all vehicle types.",
+      color: "text-secondary"
+    },
+    {
+      icon: <ShieldCheck className="w-8 h-8" />,
+      title: "Security of Vehicle & Goods",
+      description: "Vehicle and cargo security services during breakdowns or extended repair periods to protect your valuable assets.",
+      color: "text-accent"
+    },
+    {
+      icon: <Activity className="w-8 h-8" />,
+      title: "Telematics & Digital Integration",
+      description: "Advanced telematics solutions and digital technology integration for real-time fleet monitoring and performance optimization.",
+      color: "text-primary"
+    },
+    {
+      icon: <Gauge className="w-8 h-8" />,
+      title: "Telemetry & Monitoring Service",
+      description: "Comprehensive telemetry services providing detailed vehicle performance data and predictive maintenance insights.",
+      color: "text-secondary"
+    },
+    {
+      icon: <Cog className="w-8 h-8" />,
+      title: "Software & Hardware Support",
+      description: "Complete technical support for vehicle management software and hardware systems to ensure optimal fleet operations.",
+      color: "text-accent"
+    },
+    {
+      icon: <Zap className="w-8 h-8" />,
+      title: "Power Generator Services",
+      description: "Professional power generator maintenance, repair, and rental services for construction sites and emergency backup power.",
+      color: "text-primary"
+    },
+    {
+      icon: <Wrench className="w-8 h-8" />,
+      title: "Tailor Made Customer Solutions",
+      description: "Customized service packages designed specifically for your unique fleet requirements and operational needs.",
+      color: "text-secondary"
+    },
+    {
+      icon: <ShieldCheck className="w-8 h-8" />,
+      title: "Custom Fleet Solutions",
+      description: "Bespoke fleet management solutions tailored to your industry requirements and operational challenges.",
+      color: "text-accent"
+    },
+    {
+      icon: <Calendar className="w-8 h-8" />,
+      title: "Preventive Maintenance Programs",
+      description: "Scheduled preventive maintenance programs designed to maximize vehicle uptime and extend fleet lifespan.",
+      color: "text-primary"
     }
   ];
 

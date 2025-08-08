@@ -3,9 +3,9 @@ import { Card, CardContent } from "@/components/ui/card";
 const Gallery = () => {
   const projects = [
     {
-      title: "Precision Bearing Repair",
-      description: "Expert mechanical component repairs with precision tools and techniques",
-      image: "/lovable-uploads/524bba7c-ed1e-4f17-ba48-78dab039828a.png",
+      title: "Precision Bearing Assembly",
+      description: "Advanced bearing assembly and precision measurement with professional tools",
+      image: "/lovable-uploads/23053d9f-3f7c-4dbe-be18-b09a8e477c40.png",
       category: "Component Repair"
     },
     {
@@ -73,6 +73,12 @@ const Gallery = () => {
       description: "Complete transmission and gearbox rebuilding with precision engineering",
       image: "/lovable-uploads/f97b9ed6-037e-4c09-a650-43b4f843f4a9.png",
       category: "Rebuild Services"
+    },
+    {
+      title: "Commercial Tire Solutions",
+      description: "Premium truck and trailer tire inventory for all fleet requirements",
+      image: "/lovable-uploads/bde71a20-a287-4113-a087-aa602d0a4e3c.png",
+      category: "Tire Services"
     }
   ];
 
