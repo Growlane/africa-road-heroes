@@ -79,6 +79,36 @@ const Gallery = () => {
       description: "Premium truck and trailer tire inventory for all fleet requirements",
       image: "/lovable-uploads/bde71a20-a287-4113-a087-aa602d0a4e3c.png",
       category: "Tire Services"
+    },
+    {
+      title: "Engine Bearing Specialists",
+      description: "Precision engine bearings and bushings for optimal performance and longevity",
+      image: "/lovable-uploads/45cceb34-04a9-48ec-b023-7e28c5e88ee5.png",
+      category: "Component Repair"
+    },
+    {
+      title: "Municipal Fleet Services",
+      description: "Specialized maintenance for municipal and environmental health vehicles",
+      image: "/lovable-uploads/ce3b5ead-b873-4726-b269-4b51e78115a3.png",
+      category: "Fleet Management"
+    },
+    {
+      title: "Agricultural Equipment",
+      description: "Professional tractor and farming equipment maintenance and repair services",
+      image: "/lovable-uploads/98816239-f179-4689-8fec-1ab5bfff0b45.png",
+      category: "Plant Equipment"
+    },
+    {
+      title: "Waste Management Fleet",
+      description: "Specialized services for waste collection and refuse truck maintenance",
+      image: "/lovable-uploads/16ab2224-f3f2-4bc0-9a56-0980f31ea39a.png",
+      category: "Fleet Management"
+    },
+    {
+      title: "Sewage & Septic Services",
+      description: "Professional sewage truck maintenance and septic system vehicle repairs",
+      image: "/lovable-uploads/d6124d52-9c61-46c1-a271-fafb542a70d4.png",
+      category: "Specialized Services"
     }
   ];
 
