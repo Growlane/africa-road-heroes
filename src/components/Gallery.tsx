@@ -109,6 +109,24 @@ const Gallery = () => {
       description: "Professional sewage truck maintenance and septic system vehicle repairs",
       image: "/lovable-uploads/d6124d52-9c61-46c1-a271-fafb542a70d4.png",
       category: "Specialized Services"
+    },
+    {
+      title: "Control Office Operations",
+      description: "Professional management center coordinating all fleet services and client communications",
+      image: "/lovable-uploads/a742f70e-3921-4e00-aa81-3769b187e7c4.png",
+      category: "Operations Center"
+    },
+    {
+      title: "Workshop Service Bay",
+      description: "Professional workshop facilities with expert technicians servicing heavy-duty vehicles",
+      image: "/lovable-uploads/c6aee9e0-1bca-4bfc-8c27-95bd21f04038.png",
+      category: "Workshop Services"
+    },
+    {
+      title: "Fleet Maintenance Services",
+      description: "Comprehensive vehicle maintenance including buses and commercial fleet servicing",
+      image: "/lovable-uploads/fde8084e-1ef0-45eb-a188-99931ccdf106.png",
+      category: "Fleet Management"
     }
   ];
 
