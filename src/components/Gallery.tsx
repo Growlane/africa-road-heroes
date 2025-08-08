@@ -37,6 +37,42 @@ const Gallery = () => {
       description: "Fully rebuilt engines ready for installation - like brand new performance",
       image: "/lovable-uploads/8786edb3-13bb-4304-bf6f-2f366dbaaa11.png",
       category: "Engine Rebuild"
+    },
+    {
+      title: "Differential & Gear Systems",
+      description: "Precision repair and rebuilding of differential components and gear systems",
+      image: "/lovable-uploads/007c33b9-9d1d-43e3-bd82-b9829ff5acb1.png",
+      category: "Component Repair"
+    },
+    {
+      title: "Truck Cab Maintenance",
+      description: "Complete truck cab servicing and hydraulic system maintenance",
+      image: "/lovable-uploads/568b3159-12ef-48ff-baad-8f1417ede020.png",
+      category: "Fleet Management"
+    },
+    {
+      title: "Plant Equipment Service",
+      description: "Professional loader and construction equipment maintenance and repairs",
+      image: "/lovable-uploads/1f0b8789-b21e-4f17-873c-28a25b53724b.png",
+      category: "Plant Equipment"
+    },
+    {
+      title: "Hydraulic Systems",
+      description: "Advanced hydraulic equipment repair and hose replacement services",
+      image: "/lovable-uploads/7dcafcf7-33ef-4f21-98ac-127f7e1bc577.png",
+      category: "Hydraulic Service"
+    },
+    {
+      title: "Heavy Trailer Solutions",
+      description: "Multi-axle trailer maintenance and transport solutions for heavy loads",
+      image: "/lovable-uploads/0aef9ac8-b718-4a36-9055-783ad6990d31.png",
+      category: "Transport Services"
+    },
+    {
+      title: "Transmission Rebuilds",
+      description: "Complete transmission and gearbox rebuilding with precision engineering",
+      image: "/lovable-uploads/f97b9ed6-037e-4c09-a650-43b4f843f4a9.png",
+      category: "Rebuild Services"
     }
   ];
 

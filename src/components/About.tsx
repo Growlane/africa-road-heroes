@@ -91,6 +91,9 @@ const About = () => {
                   Business Crew Group Pty. Ltd is an innovative entrepreneurial venture. Our mission is to ensure that you do more at sustainable operating costs, which is only possible because of our innovative team which is led by the founder and CEO.
                 </p>
                 <p>
+                  Ultimate Trucking Solutions with its headquarters which also houses its main Truck, Trailer and Plant Equipment service centre as well as our 24/7 Roadside and Mobile call centre which then commands our mobile teams in all major centres and highways in resource and customer needs and location of emergency.
+                </p>
+                <p>
                   We are Botswana's premier truck, trailer, and plant equipment service hub, based in Gaborone. We are trusted by regional and local logistics companies for our cutting-edge roadside assistance, mobile mechanics, fleet efficiency solutions, and commitment to safer transport operations.
                 </p>
                 <p>
@@ -283,8 +286,49 @@ const About = () => {
         </div>
       </section>
 
-      {/* Final CTA */}
+      {/* Additional Services */}
       <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-primary mb-8 text-center">
+              Additional Services
+            </h2>
+            <div className="w-24 h-1 bg-secondary mx-auto mb-16"></div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="bg-muted rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <h3 className="font-poppins font-semibold text-primary mb-3">Emergency Support</h3>
+                <ul className="font-open-sans text-foreground/80 space-y-2">
+                  <li>• Parts deliveries to emergency site</li>
+                  <li>• Fuel & lubricants deliveries to site</li>
+                  <li>• Tyre changes</li>
+                  <li>• Security of vehicle & goods</li>
+                </ul>
+              </div>
+              <div className="bg-muted rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <h3 className="font-poppins font-semibold text-primary mb-3">Technology Integration</h3>
+                <ul className="font-open-sans text-foreground/80 space-y-2">
+                  <li>• Telematics</li>
+                  <li>• Digital & technology integration</li>
+                  <li>• Telemetry service</li>
+                  <li>• Software and Hardware support</li>
+                </ul>
+              </div>
+              <div className="bg-muted rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <h3 className="font-poppins font-semibold text-primary mb-3">Specialized Services</h3>
+                <ul className="font-open-sans text-foreground/80 space-y-2">
+                  <li>• Power Generator services and maintenance</li>
+                  <li>• Tailor made customer requirements</li>
+                  <li>• Custom fleet solutions</li>
+                  <li>• Preventive maintenance programs</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-montserrat font-bold text-primary mb-6">
