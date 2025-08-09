@@ -5,13 +5,13 @@ const Gallery = () => {
     {
       title: "Precision Bearing Assembly",
       description: "Advanced bearing assembly and precision measurement with professional tools",
-      image: "/lovable-uploads/6da72acd-de6f-490c-ab75-44a62d37f4ec.png",
+      image: "/lovable-uploads/4b72299a-e5e6-4084-b4bf-327d6bec04f7.png",
       category: "Component Repair"
     },
     {
       title: "Transmission & Differential Work",
       description: "Professional transmission parts measurement and rebuilding services",
-      image: "/lovable-uploads/829d9807-1875-4c03-b352-32c0d1b8cb94.png",
+      image: "/lovable-uploads/f5142d5a-9868-4f0b-9741-0b4d67322368.png",
       category: "Rebuild Services"
     },
     {
