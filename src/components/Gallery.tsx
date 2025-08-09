@@ -5,7 +5,7 @@ const Gallery = () => {
     {
       title: "Precision Bearing Assembly",
       description: "Advanced bearing assembly and precision measurement with professional tools",
-      image: "/lovable-uploads/a0f0360a-3c07-4450-8bb2-8bdb12301073.png",
+      image: "/lovable-uploads/6da72acd-de6f-490c-ab75-44a62d37f4ec.png",
       category: "Component Repair"
     },
     {
@@ -35,7 +35,7 @@ const Gallery = () => {
     {
       title: "Complete Engine Rebuild",
       description: "Fully rebuilt engines ready for installation - like brand new performance",
-      image: "/lovable-uploads/8786edb3-13bb-4304-bf6f-2f366dbaaa11.png",
+      image: "/lovable-uploads/6294eb37-53eb-4a0c-baac-7044f261c8c0.png",
       category: "Engine Rebuild"
     },
     {
@@ -107,7 +107,7 @@ const Gallery = () => {
     {
       title: "Sewage & Septic Services",
       description: "Professional sewage truck maintenance and septic system vehicle repairs",
-      image: "/lovable-uploads/d6124d52-9c61-46c1-a271-fafb542a70d4.png",
+      image: "/lovable-uploads/49e0d301-dbe2-4ed5-a5c6-b4793fff74e4.png",
       category: "Specialized Services"
     },
     {
